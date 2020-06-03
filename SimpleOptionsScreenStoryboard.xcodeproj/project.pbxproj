@@ -13,6 +13,11 @@
 		1F4F46ED2485DE0F000BB958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F46EB2485DE0F000BB958 /* Main.storyboard */; };
 		1F4F46EF2485DE10000BB958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F46EE2485DE10000BB958 /* Assets.xcassets */; };
 		1F4F46F22485DE10000BB958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F46F02485DE10000BB958 /* LaunchScreen.storyboard */; };
+		1F4F46FA2485DE8B000BB958 /* OptionsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F46F92485DE8B000BB958 /* OptionsScreen.storyboard */; };
+		1F4F46FC2485DEB0000BB958 /* OptionsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F46FB2485DEB0000BB958 /* OptionsScreenViewController.swift */; };
+		1F7F020F2486139F0039DFB9 /* RoundedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F020E2486139F0039DFB9 /* RoundedUIView.swift */; };
+		1F7F0211248613BB0039DFB9 /* OverlayOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F0210248613BB0039DFB9 /* OverlayOptionCell.swift */; };
+		1F7F021424881B900039DFB9 /* OptionsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F021324881B900039DFB9 /* OptionsScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1F4F46EE2485DE10000BB958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4F46F12485DE10000BB958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4F46F32485DE10000BB958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4F46F92485DE8B000BB958 /* OptionsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OptionsScreen.storyboard; sourceTree = "<group>"; };
+		1F4F46FB2485DEB0000BB958 /* OptionsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScreenViewController.swift; sourceTree = "<group>"; };
+		1F7F020E2486139F0039DFB9 /* RoundedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIView.swift; sourceTree = "<group>"; };
+		1F7F0210248613BB0039DFB9 /* OverlayOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayOptionCell.swift; sourceTree = "<group>"; };
+		1F7F021324881B900039DFB9 /* OptionsScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScreenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		1F4F46E42485DE0F000BB958 /* SimpleOptionsScreenStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				1F7F0212248613CD0039DFB9 /* Options */,
 				1F4F46E52485DE0F000BB958 /* AppDelegate.swift */,
 				1F4F46E72485DE0F000BB958 /* SceneDelegate.swift */,
 				1F4F46E92485DE0F000BB958 /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				1F4F46F32485DE10000BB958 /* Info.plist */,
 			);
 			path = SimpleOptionsScreenStoryboard;
+			sourceTree = "<group>";
+		};
+		1F7F0212248613CD0039DFB9 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F46F92485DE8B000BB958 /* OptionsScreen.storyboard */,
+				1F4F46FB2485DEB0000BB958 /* OptionsScreenViewController.swift */,
+				1F7F021324881B900039DFB9 /* OptionsScreenViewModel.swift */,
+				1F7F020E2486139F0039DFB9 /* RoundedUIView.swift */,
+				1F7F0210248613BB0039DFB9 /* OverlayOptionCell.swift */,
+			);
+			path = Options;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +151,7 @@
 				1F4F46F22485DE10000BB958 /* LaunchScreen.storyboard in Resources */,
 				1F4F46EF2485DE10000BB958 /* Assets.xcassets in Resources */,
 				1F4F46ED2485DE0F000BB958 /* Main.storyboard in Resources */,
+				1F4F46FA2485DE8B000BB958 /* OptionsScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4F46EA2485DE0F000BB958 /* ViewController.swift in Sources */,
+				1F4F46FC2485DEB0000BB958 /* OptionsScreenViewController.swift in Sources */,
+				1F7F020F2486139F0039DFB9 /* RoundedUIView.swift in Sources */,
+				1F7F021424881B900039DFB9 /* OptionsScreenViewModel.swift in Sources */,
+				1F7F0211248613BB0039DFB9 /* OverlayOptionCell.swift in Sources */,
 				1F4F46E62485DE0F000BB958 /* AppDelegate.swift in Sources */,
 				1F4F46E82485DE0F000BB958 /* SceneDelegate.swift in Sources */,
 			);
