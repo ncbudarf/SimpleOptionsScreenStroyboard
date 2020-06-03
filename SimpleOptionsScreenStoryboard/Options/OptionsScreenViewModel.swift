@@ -15,7 +15,7 @@ class OptionsScreenViewModel {
     
     private let overlayColors = [UIColor.black, UIColor.red, UIColor.blue, UIColor.brown, UIColor.yellow, UIColor.lightGray]
     
-    var defaultOverlayColor:UIColor?
+    private var defaultOverlayColor:UIColor?
     
     init() {
         defaultOverlayColor = .black
